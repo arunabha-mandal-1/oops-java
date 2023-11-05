@@ -50,5 +50,19 @@ public class Main {
 
         BoxPrice box9 = new BoxPrice(); // debug it to understand
         BoxPrice box10 = new BoxPrice(10, 52, 1200); // debug it to understand
+
+        Box box11 = new BoxWeight();
+        // static stuffs do not depend on class object rather depend on class
+        // static methods can be inherited but cannot be overridden
+        box11.greeting(); // called from parent class(class in ref variable)
+
+        // overriding depends on object
+        // static does not depend on object
+        // static methods cannot be overridden
+
+        // static methods can be inherited, like
+        BoxWeight box12 = new BoxWeight();
+        box12.goodbye(); // although recommended way is to use class itse;f to refer
+        box12.printWeight();
     }
 }

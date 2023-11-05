@@ -1,0 +1,9 @@
+Encapsulation:
+    wrapping up the implementations of data members and methods in a class.
+    writing up code of that encapsulated thing is providing us abstraction.
+    encapsulation is solving an implementation level issue.
+    encapsulation focuses on the internal working.
+    it's a process of containing information.
+
+
+    making something private is called data hiding

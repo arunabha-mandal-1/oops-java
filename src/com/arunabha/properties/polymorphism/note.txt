@@ -16,3 +16,23 @@ Types :
     2. runtime/dynamic polymorphism: achieved by method overriding(same function properties but body is different).
                                      area in Shapes, Circle, Square, Triangle
 
+
+
+--- google it ---
+if you put final before any method, you cannot override that method.
+final methods can somehow provide some performance enhancement.
+cuz the compiler will know that that particular method won't be overridden.
+
+early binding : method declared as final
+late binding : method not declared as final
+
+-------///////------
+
+
+final keyword is also to prevent inheritance
+class declared as final cannot be inherited by another class
+implicitly declare all of its method as final, cuz they ain't going to be overridden and it boosts performance!
+
+
+polymorphism is not applied to instance variables.
+

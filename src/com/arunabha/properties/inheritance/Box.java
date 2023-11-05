@@ -38,6 +38,14 @@ public class Box {
         this.w = old.w;
     }
 
+    static void greeting(){
+        System.out.println("I am from Box class. Greetings!");
+    }
+
+    static void goodbye(){
+        System.out.println("Bye from Box!!");
+    }
+
     public void information() {
         System.out.println("Running the Box!!");
         System.out.println("Length: " + this.l);

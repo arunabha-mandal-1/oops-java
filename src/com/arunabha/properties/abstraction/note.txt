@@ -1,0 +1,8 @@
+Abstraction:
+    hiding the unnecessary details and only showing essential and showing valuable information.
+    car driving without knowing the inner details.
+    we use System.out.println(), Arraylist(ADT) etc. without knowing the inner details.
+    that's abstraction in oop.
+    abstraction is solving a design level issue.
+    abstraction focuses on the external stuff.
+    it's a process of gaining information.

@@ -1,7 +1,11 @@
 package com.arunabha.properties.inheritance;
 
 public class BoxWeight extends Box{
-    double weight;
+
+    private final double weight;
+    public double getWeight() {
+        return weight;
+    }
 
     // it will call Box's default constructor
     BoxWeight(){
@@ -34,6 +38,11 @@ public class BoxWeight extends Box{
         weight = other.weight;
     }
 
+    // Static methods cannot be overridden cuz they are bounded using static binding during compile time
+//    @Override
+    static void greeting(){
+        System.out.println("I am from BoxWeight class. Greetings!");
+    }
     void printWeight(){
 
         // to access mentioned in this class we do
