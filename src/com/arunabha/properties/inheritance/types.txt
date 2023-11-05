@@ -1,0 +1,18 @@
+Types of inheritance:
+    1. single inheritance: one class extends another class.
+    2. multilevel inheritance: one can inherit another class that can another class.
+                               upper classes does not have access to the lower ones but lower ones have access to the upper ones.
+    3. multiple inheritance: one class is extending more than one class.
+                             class C extends class B and class A.
+                             suppose there is variable 'n' in both A(n=10) and B(n=20).
+                             then which value C should take??
+                             that's why java does not support multiple inheritance.
+                             java does this via interfaces.
+    4. hierarchical inheritance: one class is inherited by many classes.
+                                 class A, B, C inherit class D
+    5. hybrid inheritance: combination of single and multiple inheritance.
+                           java does not support this.
+                           done via interfaces.
+                           class B, C extend A(single); class D extends class B, C(multiple)
+
+note : a class can not inherit itself.

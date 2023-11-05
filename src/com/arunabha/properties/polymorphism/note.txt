@@ -1,0 +1,18 @@
+Polymorphism:
+    poly = many
+    morphism = way to represent
+    > many ways to represent a single item or entity
+    e.g. a task is performed as a single action but in different ways.
+    any language that does not support polymorphism is not object-oriented language; they are known as object basis language. java supports polymorphism.
+    it occurs during inheritance.
+
+    creating different constructor is also polymorphism;
+
+Types :
+    1. compile time/static polymorphism: achieved via method/operator overloading.(java does not provide operator overloading)
+                                         e.g. multiple constructor
+                                         java determines which method should call at compile time.
+
+    2. runtime/dynamic polymorphism: achieved by method overriding(same function properties but body is different).
+                                     area in Shapes, Circle, Square, Triangle
+
