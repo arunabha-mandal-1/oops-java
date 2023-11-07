@@ -46,7 +46,7 @@ public class Box {
         System.out.println("Bye from Box!!");
     }
 
-    public void information() {
+    protected void information() {
         System.out.println("Running the Box!!");
         System.out.println("Length: " + this.l);
         System.out.println("Height: " + this.h);

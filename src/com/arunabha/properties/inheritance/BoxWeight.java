@@ -53,4 +53,10 @@ public class BoxWeight extends Box{
         // just like
         System.out.println("From Box class: " + super.weight);
     }
+
+    // in general, overridden methods' access modifier should be same or even better i.e. less restricted
+    @Override
+    public void information() {
+        super.information();
+    }
 }
