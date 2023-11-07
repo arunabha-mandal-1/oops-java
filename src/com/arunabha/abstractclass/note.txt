@@ -1,0 +1,12 @@
+Abstract class:
+    any class that contains one or more abstract method must be declared abstract class.
+    abstract method: part of abstract class.
+                     tells the child class what to do, not how to do.
+                     function is declared but not defined.
+
+    if we know that methods of the parent class will be overridden, make it abstract.
+    abstract class objects cannot be created.
+    abstract constructor cannot be created.
+    static methods do not get overridden. so static methods cannot be abstract.
+    but we can create static method in abstract class.
+    an abstract class can extend another abstract class.

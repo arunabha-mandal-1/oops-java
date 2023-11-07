@@ -1,0 +1,23 @@
+Interface:
+    contains only abstract function that are public by default.
+    variables are static and final(cuz final variables are always initialized) by default in interface.
+    what the class is doing not how it's doing.
+    u cannot create objects of the interfaces.
+
+    abstract class can provide implementation of an interface.
+    interface cannot provide implementation of an abstract class.
+
+    u can implement multiple interfaces together.
+    an interface can extend other interfaces.
+
+    achieved multiple inheritance by interfaces.
+
+    u should be careful not to use interfaces casually in performance critical codes.
+
+    only 'public' and 'static' access modifiers are allowed here
+
+    @annotations are internally interfaces
+
+    top level can be public or default.
+
+    but nested interfaces can be public, protected, default, private.
