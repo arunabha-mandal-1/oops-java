@@ -1,0 +1,15 @@
+Packages:
+    there are two types of packages.
+        1. user-defined
+        2. in-built packages
+
+In-built packages(in java folder):
+    different types:
+        1. lang package: contains essential stuffs in java, java languages specific operations
+                         it's automatically imported
+        2. io package: contains input/output packages
+        3. util: data structures, collection frameworks and other stuff like ArrayList etc.
+        4. applet: used to create applet in java
+        5. awt: for gui applications
+        6. net: for networking stuffs
+        etc.

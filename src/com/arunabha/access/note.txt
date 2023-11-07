@@ -1,0 +1,12 @@
+            class   package     subclass(same pkg)    subclass(diff pkg)    world(diff pkg not subclass)
+public      +       +           +                     +                     +
+protected   +       +           +                     +
+default     +       +           +
+private     +
+
+use cases
+    1. public: accessed everywhere e.g. we want main function to be accessed everywhere
+    2. protected: we want to use these members outside the class if the class we are using it in is a subclass; only subclass can access not the superclass
+    3. default: for members we don't want to use outside the particular package
+    4. private: it is for sensitive data that we don't want direct access to; accessed via getter and setter
+
