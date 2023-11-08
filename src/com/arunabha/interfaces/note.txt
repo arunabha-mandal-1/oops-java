@@ -21,3 +21,5 @@ Interface:
     top level can be public or default.
 
     but nested interfaces can be public, protected, default, private.
+
+    interfaces provide a common protocol that allows different software components to communicate with each other.
