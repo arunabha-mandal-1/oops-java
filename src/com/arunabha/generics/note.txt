@@ -1,0 +1,7 @@
+Generics:
+    u cannot instantiate generics with primitive types.
+    u cannot create instances of type parameters.
+    u cannot declare static fields whose types are type parameters.
+    u cannot use casts or instanceof(works at runtime) with parameterized types.
+
+    * for more refer docs
